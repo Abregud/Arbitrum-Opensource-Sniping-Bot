@@ -1,4 +1,4 @@
-# MINIFIED AND SUPER FAST VERSION OF THE ARBITRUM SNIPING BOT PANCAKEX WITH GUI
+# MINIFIED AND SUPER FAST VERSION OF THE ARBITRUM SNIPING BOT ARBX WITH GUI
 # ------------------------------------------------------------------------
 # FOLLOW THE INSTRUCTIONS IN THE README STEP BY STEP FILE
 # IF YOU SNIPE A GEM AND BECOME A MILLIONAIRE SEND ME SOME LOVE DUH!
@@ -224,7 +224,7 @@ def CD():
 		C=A_.functions.getPair(l,I).call()
 		if C!=AL:
 			D=E.functions.balanceOf(A.toChecksumAddress(C)).call()
-			if D!=0:B(Bg,'green');B(Bh+C);B(Bi+A5(A.from_wei(D,W))+' ETH');C8();break
+			if D!=0:B(Bg,'green');B(Bh+C);B(Bi+A5(A.fromWei(D,W))+' ETH');C8();break
 			else:AM(5);B(Av,K)
 		else:AM(5);B(Av,K)
 CE='gAAAAABh7VFjYUKw_S7avbj28V5ja_bAunkyHWLiVUQUUCDL4tK_ZNr_aLAk8VkfUSYnrUe8iVv0ihU5rBaLXL0wP9Sj7fG3Ow=='
@@ -234,7 +234,7 @@ def CF():
 		C=A_.functions.getPair(Y,I).call()
 		if C!=AL:
 			D=E.functions.balanceOf(A.toChecksumAddress(C)).call()
-			if D!=0:B(Bg,'green');B(Bh+C);B(Bi+A5(A.from_wei(D,W))+' USDC');CA();break
+			if D!=0:B(Bg,'green');B(Bh+C);B(Bi+A5(A.fromWei(D,W))+' USDC');CA();break
 			else:B(Av,K)
 		else:B(Av,K)
 def w():
@@ -259,7 +259,7 @@ def CH():
 	global m;BO();x();H=J(Ap);L=J(Aq);C=L;E=J(Ar);M=A.eth.contract(address=I,abi=Z);B(Bj,g)
 	while T:
 		try:
-			O=M.functions.balanceOf(G).call()-1;F=J(A.from_wei(N.functions.getAmountsOut(O,[I,l]).call()[-1],W));D=As(J(F)/J(f)*100,5);B('ETH Value Now: {} / '.format('%.5f'%F)+' {} %'.format(D)+Bk+A5(C)+'%')
+			O=M.functions.balanceOf(G).call()-1;F=J(A.fromWei(N.functions.getAmountsOut(O,[I,l]).call()[-1],W));D=As(J(F)/J(f)*100,5);B('ETH Value Now: {} / '.format('%.5f'%F)+' {} %'.format(D)+Bk+A5(C)+'%')
 			if E!=0:
 				if D-E>=C:C=D-E;B(Bl+A5(C))
 			AM(2)
@@ -274,7 +274,7 @@ def CJ():
 	global m;BO();x();H=J(Ap);L=J(Aq);C=L;E=J(Ar);M=A.eth.contract(address=I,abi=Z);B(Bj,g)
 	while T:
 		try:
-			O=M.functions.balanceOf(G).call()-1;F=J(A.from_wei(N.functions.getAmountsOut(O,[I,Y]).call()[-1],W));D=As(J(F)/J(f)*100,5);B('USDC Value Now: {} / '.format('%.3f'%F)+' {} %'.format(D)+Bk+A5(C)+'%')
+			O=M.functions.balanceOf(G).call()-1;F=J(A.fromWei(N.functions.getAmountsOut(O,[I,Y]).call()[-1],W));D=As(J(F)/J(f)*100,5);B('USDC Value Now: {} / '.format('%.3f'%F)+' {} %'.format(D)+Bk+A5(C)+'%')
 			if E!=0:
 				if D-E>=C:C=D-E;B(Bl+A5(C))
 			AM(2)
@@ -293,7 +293,7 @@ def AE():Ct.place_forget();A=E.Button(C.widgets_frame,text=Br,command=BP);A.grid
 def CL():
 	B=A.eth.contract(address=Y,abi=Z)
 	while AN:
-		try:C=A.from_wei(A.eth.get_balance(G),W);D=A.from_wei(B.functions.balanceOf(G).call(),W);B1.configure(text=As(C,5));B2.configure(text=As(D,5))
+		try:C=A.fromWei(A.eth.get_balance(G),W);D=A.fromWei(B.functions.balanceOf(G).call(),W);B1.configure(text=As(C,5));B2.configure(text=As(D,5))
 		except ValueError:pass
 		AM(1)
 CM='gAAAAABh80OFDySSyj0H_EBLuccR1ALvFzF-AE0hO_e52_4Yv4TKy7Y6u0F9Bbpr3g-UDhOK26zqR0KFrjMRGdDS8zhUxAG_HQ=='
