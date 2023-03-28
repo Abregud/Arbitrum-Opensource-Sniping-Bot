@@ -191,8 +191,8 @@ BN='TxZEsE361BfcfNjRwTZ8nVTAp6ZBXoDXRaQgUpyXfUQ='
 Ah=X(L(BY))
 if'wss'in Ah[AP]or'ws'in Ah[AP]:A=Q(Q.WebsocketProvider(Ah[AP]))
 else:A=Q(Q.HTTPProvider(Ah[AP]))
-if R==S:l=A.to_checksum_address(Ba);Y=A.to_checksum_address(Bb);Z=X(L(AK+Bc));N=A.eth.contract(address=Q.to_checksum_address('0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506'),abi=X(L(AK+'router.abi')));A_=A.eth.contract(address=Q.to_checksum_address('0xc35DADB65012eC5796536bD9864eD8773aBc74C4'),abi=X(L(AK+Bd)))
-elif R==A8:l=A.to_checksum_address(Ba);Y=A.to_checksum_address(Bb);Z=X(L(AK+Bc));N=A.eth.contract(address=Q.to_checksum_address('0xc873fEcbd354f5A56E00E710B90EF4201db2448d'),abi=X(L(AK+'camelot_router.abi')));A_=A.eth.contract(address=Q.to_checksum_address('0x6EcCab422D763aC031210895C81787E87B43A652'),abi=X(L(AK+Bd)))
+if R==S:l=A.toChecksumAddress(Ba);Y=A.toChecksumAddress(Bb);Z=X(L(AK+Bc));N=A.eth.contract(address=Q.toChecksumAddress('0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506'),abi=X(L(AK+'router.abi')));A_=A.eth.contract(address=Q.toChecksumAddress('0xc35DADB65012eC5796536bD9864eD8773aBc74C4'),abi=X(L(AK+Bd)))
+elif R==A8:l=A.toChecksumAddress(Ba);Y=A.toChecksumAddress(Bb);Z=X(L(AK+Bc));N=A.eth.contract(address=Q.toChecksumAddress('0xc873fEcbd354f5A56E00E710B90EF4201db2448d'),abi=X(L(AK+'camelot_router.abi')));A_=A.eth.contract(address=Q.toChecksumAddress('0x6EcCab422D763aC031210895C81787E87B43A652'),abi=X(L(AK+Bd)))
 Ai='sfttxzhVv7trv_zSKqOBJN_2KdnJcsje5PMUbRSnImw='
 def C8():
 	J='value';x()
@@ -201,8 +201,8 @@ def C8():
 		if AI.get():C=0
 		else:C=H(D-D*H(Ao)/100)
 		B(Be,g)
-		if R==S:E=N.functions.swapExactETHForTokensSupportingFeeOnTransferTokens(H(C),[l,I],G,H(k())+900).buildTransaction({h:G,J:A.toWei(f,W),s:H(a),i:A.toWei(b,t),j:A.eth.get_transaction_count(G)})
-		else:E=N.functions.swapExactETHForTokensSupportingFeeOnTransferTokens(H(C),[l,I],G,AL,H(k())+900).buildTransaction({h:G,J:A.toWei(f,W),s:H(a),i:A.toWei(b,t),j:A.eth.get_transaction_count(G)})
+		if R==S:E=N.functions.swapExactETHForTokensSupportingFeeOnTransferTokens(H(C),[l,I],G,H(k())+900).build_transaction({h:G,J:A.toWei(f,W),s:H(a),i:A.toWei(b,t),j:A.eth.get_transaction_count(G)})
+		else:E=N.functions.swapExactETHForTokensSupportingFeeOnTransferTokens(H(C),[l,I],G,AL,H(k())+900).build_transaction({h:G,J:A.toWei(f,W),s:H(a),i:A.toWei(b,t),j:A.eth.get_transaction_count(G)})
 		M=A.eth.account.sign_transaction(E,private_key=d);F=A.eth.send_raw_transaction(M.rawTransaction);B(Bf,P);B(B6+A.toHex(F),P);A.eth.waitForTransactionReceipt(F,timeout=900);CH()
 	except AJ as O:B(B7,K);B(O,K);AF();return
 C9='gAAAAABh80KOUysGNn39XTwSm-HHvOIkoWcJhmk0HtVug7bMgvto83_ZCSQ9rdf86LaJEINYzXTqbRO8EDtcMziHy2PwfjdqW_0VsOwYg1x4GWADOsNo17E='
@@ -212,18 +212,18 @@ def CA():
 	else:C=D-D*H(Ao)/100
 	try:
 		B(Be,g)
-		if R==S:E=N.functions.swapExactTokensForTokens(A.toWei(f,W),H(C),[Y,I],G,H(k())+900).buildTransaction({h:G,s:H(a),i:A.toWei(b,t),j:A.eth.get_transaction_count(G)})
-		else:E=N.functions.swapExactTokensForTokens(A.toWei(f,W),H(C),[Y,I],G,AL,H(k())+900).buildTransaction({h:G,s:H(a),i:A.toWei(b,t),j:A.eth.get_transaction_count(G)})
+		if R==S:E=N.functions.swapExactTokensForTokens(A.toWei(f,W),H(C),[Y,I],G,H(k())+900).build_transaction({h:G,s:H(a),i:A.toWei(b,t),j:A.eth.get_transaction_count(G)})
+		else:E=N.functions.swapExactTokensForTokens(A.toWei(f,W),H(C),[Y,I],G,AL,H(k())+900).build_transaction({h:G,s:H(a),i:A.toWei(b,t),j:A.eth.get_transaction_count(G)})
 		J=A.eth.account.sign_transaction(E,private_key=d);F=A.eth.send_raw_transaction(J.rawTransaction);B(Bf,P);B(B6+A.toHex(F),P);A.eth.waitForTransactionReceipt(F,timeout=900);CJ()
 	except AJ as L:B(B7,K);B(L,K);AF();return
-def CB(token_address,amt=BM):B=Q.to_checksum_address(token_address);C=A.eth.contract(address=B,abi=Z);D=C.functions.allowance(G,N.address).call();return D>=amt
-def CC(token_address,amt=BM,timeout=900):B('Approving token');C=A.eth.gasPrice;D=Q.to_checksum_address(token_address);E=A.eth.contract(address=D,abi=Z);F=E.functions.approve(N.address,amt);H={h:G,i:C,j:A.eth.getTransactionCount(G)};I=F.buildTransaction(H);J=A.eth.account.sign_transaction(I,private_key=d);K=A.eth.sendRawTransaction(J.rawTransaction);A.eth.waitForTransactionReceipt(K,timeout=timeout)
+def CB(token_address,amt=BM):B=Q.toChecksumAddress(token_address);C=A.eth.contract(address=B,abi=Z);D=C.functions.allowance(G,N.address).call();return D>=amt
+def CC(token_address,amt=BM,timeout=900):B('Approving token');C=A.eth.gasPrice;D=Q.toChecksumAddress(token_address);E=A.eth.contract(address=D,abi=Z);F=E.functions.approve(N.address,amt);H={h:G,i:C,j:A.eth.getTransactionCount(G)};I=F.build_transaction(H);J=A.eth.account.sign_transaction(I,private_key=d);K=A.eth.sendRawTransaction(J.rawTransaction);A.eth.waitForTransactionReceipt(K,timeout=timeout)
 def CD():
 	B(O);x();E=A.eth.contract(l,abi=Z)
 	while T:
 		C=A_.functions.getPair(l,I).call()
 		if C!=AL:
-			D=E.functions.balanceOf(A.to_checksum_address(C)).call()
+			D=E.functions.balanceOf(A.toChecksumAddress(C)).call()
 			if D!=0:B(Bg,'green');B(Bh+C);B(Bi+A5(A.from_wei(D,W))+' ETH');C8();break
 			else:AM(5);B(Av,K)
 		else:AM(5);B(Av,K)
@@ -233,7 +233,7 @@ def CF():
 	while T:
 		C=A_.functions.getPair(Y,I).call()
 		if C!=AL:
-			D=E.functions.balanceOf(A.to_checksum_address(C)).call()
+			D=E.functions.balanceOf(A.toChecksumAddress(C)).call()
 			if D!=0:B(Bg,'green');B(Bh+C);B(Bi+A5(A.from_wei(D,W))+' USDC');CA();break
 			else:B(Av,K)
 		else:B(Av,K)
@@ -245,11 +245,11 @@ def w():
 		E=A.eth.contract(I,abi=Z);C=E.functions.balanceOf(G).call()
 		if C!=0:
 			if o.get()==Ac:
-				if R==S:D=N.functions.swapExactTokensForETHSupportingFeeOnTransferTokens(C,0,[I,l],G,H(k())+900).buildTransaction({h:G,s:H(a),i:A.toWei(b,t),j:A.eth.get_transaction_count(G)})
-				else:D=N.functions.swapExactTokensForETHSupportingFeeOnTransferTokens(C,0,[I,l],G,AL,H(k())+900).buildTransaction({h:G,s:H(a),i:A.toWei(b,t),j:A.eth.get_transaction_count(G)})
+				if R==S:D=N.functions.swapExactTokensForETHSupportingFeeOnTransferTokens(C,0,[I,l],G,H(k())+900).build_transaction({h:G,s:H(a),i:A.toWei(b,t),j:A.eth.get_transaction_count(G)})
+				else:D=N.functions.swapExactTokensForETHSupportingFeeOnTransferTokens(C,0,[I,l],G,AL,H(k())+900).build_transaction({h:G,s:H(a),i:A.toWei(b,t),j:A.eth.get_transaction_count(G)})
 			elif o.get()=='USDC':
-				if R==S:D=N.functions.swapExactTokensForTokensSupportingFeeOnTransferTokens(C,0,[I,Y],G,H(k())+900).buildTransaction({h:G,s:H(a),i:A.toWei(b,t),j:A.eth.get_transaction_count(G)})
-				else:D=N.functions.swapExactTokensForTokensSupportingFeeOnTransferTokens(C,0,[I,Y],G,AL,H(k())+900).buildTransaction({h:G,s:H(a),i:A.toWei(b,t),j:A.eth.get_transaction_count(G)})
+				if R==S:D=N.functions.swapExactTokensForTokensSupportingFeeOnTransferTokens(C,0,[I,Y],G,H(k())+900).build_transaction({h:G,s:H(a),i:A.toWei(b,t),j:A.eth.get_transaction_count(G)})
+				else:D=N.functions.swapExactTokensForTokensSupportingFeeOnTransferTokens(C,0,[I,Y],G,AL,H(k())+900).build_transaction({h:G,s:H(a),i:A.toWei(b,t),j:A.eth.get_transaction_count(G)})
 			else:B('Something went wrong with Sell',K);AF();return
 			F=A.eth.account.sign_transaction(D,private_key=d);J=A.eth.send_raw_transaction(F.rawTransaction);B('SOLD! Tx link:',P);B(B6+A.toHex(J),P);AF()
 		else:B('No Tokens to be sold',K);AF()
@@ -307,13 +307,13 @@ def C_(license,basic_auth):
 Aj=AC(Ai.encode()).decrypt(CI.encode()).decode()
 def CN():
 	C='Invalid token address!';global G;global d;global I;global AN;B('***** INITIALIZED ******');B('* Checking wallet address')
-	if A.is_checksum_address(n.get()):G=A.to_checksum_address(n.get());B('Wallet address valid',P)
+	if A.isChecksumAddress(n.get()):G=A.toChecksumAddress(n.get());B('Wallet address valid',P)
 	else:U.messagebox.showerror(Ax,'Invalid wallet address');B('Invalid wallet address!',K);return
 	B('* Checking private key characters (Must be 64 characters');d=AG.get()
 	if len(d)==64:B('Correct format for Private key',P)
 	else:U.messagebox.showerror(Ax,'Private key is invalid! (Must be 64 characters)');B('Invalid private key!',K);return
 	B('* Checking token address')
-	try:I=A.to_checksum_address(e.get());B('Token address valid',P)
+	try:I=A.toChecksumAddress(e.get());B('Token address valid',P)
 	except:U.messagebox.showerror(Ax,C);B(C,K);return
 	B('* Checking License Key');B('License Key Valid',P);BR(Ae);C3();Al.grid_forget();Am.grid(row=0,column=3,padx=10,pady=(0,10),sticky=F,rowspan=4);AO(Ay);AN=T;D=AB.Thread(target=CL,daemon=T);D.start();B(O);B('***** Sniping is ready! *****',g)
 CO='gAAAAABh80VOiXlJwI8QSkM2-V_syGU-8mtXwD9c87k-cbMopaX4lqCMUipHR5ZKO-bZ6vrKC0QkIhzwcASNj_5u7F_xEJz3aQ=='
@@ -467,6 +467,6 @@ Aq=BK
 Ar=BL
 m=A9
 AN=A9
-def BV():global f;global G;global d;global I;global Ao;global a;global b;global Ap;global Aq;global Ar;f=y.get();G=Q.to_checksum_address(n.get());d=AG.get();I=Q.to_checksum_address(e.get());Ao=A1.get();a=A0.get();b=z.get();Ap=A2.get();Aq=A3.get();Ar=A4.get()
+def BV():global f;global G;global d;global I;global Ao;global a;global b;global Ap;global Aq;global Ar;f=y.get();G=Q.toChecksumAddress(n.get());d=AG.get();I=Q.toChecksumAddress(e.get());Ao=A1.get();a=A0.get();b=z.get();Ap=A2.get();Aq=A3.get();Ar=A4.get()
 AO(Ae)
 C.mainloop()
