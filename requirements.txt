@@ -1,4 +1,4 @@
 cryptography==36.0.1
 pyperclip==1.8.2
 requests==2.27.1
-web3==5.31.4
+web3==5.27.0
