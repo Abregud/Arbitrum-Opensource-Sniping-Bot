@@ -307,7 +307,7 @@ def C_(license,basic_auth):
 Aj=AC(Ai.encode()).decrypt(CI.encode()).decode()
 def CN():
 	C='Invalid token address!';global G;global d;global I;global AN;B('***** INITIALIZED ******');B('* Checking wallet address')
-	if A.isChecksumAddress(n.get()):G=A.to_checksum_address(n.get());B('Wallet address valid',P)
+	if A.is_checksum_address(n.get()):G=A.to_checksum_address(n.get());B('Wallet address valid',P)
 	else:U.messagebox.showerror(Ax,'Invalid wallet address');B('Invalid wallet address!',K);return
 	B('* Checking private key characters (Must be 64 characters');d=AG.get()
 	if len(d)==64:B('Correct format for Private key',P)
