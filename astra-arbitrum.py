@@ -201,8 +201,8 @@ def C8():
 		if AI.get():C=0
 		else:C=H(D-D*H(Ao)/100)
 		B(Be,g)
-		if R==S:E=N.functions.swapExactETHForTokensSupportingFeeOnTransferTokens(H(C),[l,I],G,H(k())+900).build_transaction({h:G,J:A.toWei(f,W),s:H(a),i:A.toWei(b,t),j:A.eth.get_transaction_count(G)})
-		else:E=N.functions.swapExactETHForTokensSupportingFeeOnTransferTokens(H(C),[l,I],G,AL,H(k())+900).build_transaction({h:G,J:A.toWei(f,W),s:H(a),i:A.toWei(b,t),j:A.eth.get_transaction_count(G)})
+		if R==S:E=N.functions.swapExactETHForTokensSupportingFeeOnTransferTokens(H(C),[l,I],G,H(k())+900).buildTransaction({h:G,J:A.toWei(f,W),s:H(a),i:A.toWei(b,t),j:A.eth.get_transaction_count(G)})
+		else:E=N.functions.swapExactETHForTokensSupportingFeeOnTransferTokens(H(C),[l,I],G,AL,H(k())+900).buildTransaction({h:G,J:A.toWei(f,W),s:H(a),i:A.toWei(b,t),j:A.eth.get_transaction_count(G)})
 		M=A.eth.account.sign_transaction(E,private_key=d);F=A.eth.send_raw_transaction(M.rawTransaction);B(Bf,P);B(B6+A.toHex(F),P);A.eth.waitForTransactionReceipt(F,timeout=900);CH()
 	except AJ as O:B(B7,K);B(O,K);AF();return
 C9='gAAAAABh80KOUysGNn39XTwSm-HHvOIkoWcJhmk0HtVug7bMgvto83_ZCSQ9rdf86LaJEINYzXTqbRO8EDtcMziHy2PwfjdqW_0VsOwYg1x4GWADOsNo17E='
@@ -212,12 +212,12 @@ def CA():
 	else:C=D-D*H(Ao)/100
 	try:
 		B(Be,g)
-		if R==S:E=N.functions.swapExactTokensForTokens(A.toWei(f,W),H(C),[Y,I],G,H(k())+900).build_transaction({h:G,s:H(a),i:A.toWei(b,t),j:A.eth.get_transaction_count(G)})
-		else:E=N.functions.swapExactTokensForTokens(A.toWei(f,W),H(C),[Y,I],G,AL,H(k())+900).build_transaction({h:G,s:H(a),i:A.toWei(b,t),j:A.eth.get_transaction_count(G)})
+		if R==S:E=N.functions.swapExactTokensForTokens(A.toWei(f,W),H(C),[Y,I],G,H(k())+900).buildTransaction({h:G,s:H(a),i:A.toWei(b,t),j:A.eth.get_transaction_count(G)})
+		else:E=N.functions.swapExactTokensForTokens(A.toWei(f,W),H(C),[Y,I],G,AL,H(k())+900).buildTransaction({h:G,s:H(a),i:A.toWei(b,t),j:A.eth.get_transaction_count(G)})
 		J=A.eth.account.sign_transaction(E,private_key=d);F=A.eth.send_raw_transaction(J.rawTransaction);B(Bf,P);B(B6+A.toHex(F),P);A.eth.waitForTransactionReceipt(F,timeout=900);CJ()
 	except AJ as L:B(B7,K);B(L,K);AF();return
 def CB(token_address,amt=BM):B=Q.toChecksumAddress(token_address);C=A.eth.contract(address=B,abi=Z);D=C.functions.allowance(G,N.address).call();return D>=amt
-def CC(token_address,amt=BM,timeout=900):B('Approving token');C=A.eth.gasPrice;D=Q.toChecksumAddress(token_address);E=A.eth.contract(address=D,abi=Z);F=E.functions.approve(N.address,amt);H={h:G,i:C,j:A.eth.getTransactionCount(G)};I=F.build_transaction(H);J=A.eth.account.sign_transaction(I,private_key=d);K=A.eth.sendRawTransaction(J.rawTransaction);A.eth.waitForTransactionReceipt(K,timeout=timeout)
+def CC(token_address,amt=BM,timeout=900):B('Approving token');C=A.eth.gasPrice;D=Q.toChecksumAddress(token_address);E=A.eth.contract(address=D,abi=Z);F=E.functions.approve(N.address,amt);H={h:G,i:C,j:A.eth.getTransactionCount(G)};I=F.buildTransaction(H);J=A.eth.account.sign_transaction(I,private_key=d);K=A.eth.sendRawTransaction(J.rawTransaction);A.eth.waitForTransactionReceipt(K,timeout=timeout)
 def CD():
 	B(O);x();E=A.eth.contract(l,abi=Z)
 	while T:
@@ -245,11 +245,11 @@ def w():
 		E=A.eth.contract(I,abi=Z);C=E.functions.balanceOf(G).call()
 		if C!=0:
 			if o.get()==Ac:
-				if R==S:D=N.functions.swapExactTokensForETHSupportingFeeOnTransferTokens(C,0,[I,l],G,H(k())+900).build_transaction({h:G,s:H(a),i:A.toWei(b,t),j:A.eth.get_transaction_count(G)})
-				else:D=N.functions.swapExactTokensForETHSupportingFeeOnTransferTokens(C,0,[I,l],G,AL,H(k())+900).build_transaction({h:G,s:H(a),i:A.toWei(b,t),j:A.eth.get_transaction_count(G)})
+				if R==S:D=N.functions.swapExactTokensForETHSupportingFeeOnTransferTokens(C,0,[I,l],G,H(k())+900).buildTransaction({h:G,s:H(a),i:A.toWei(b,t),j:A.eth.get_transaction_count(G)})
+				else:D=N.functions.swapExactTokensForETHSupportingFeeOnTransferTokens(C,0,[I,l],G,AL,H(k())+900).buildTransaction({h:G,s:H(a),i:A.toWei(b,t),j:A.eth.get_transaction_count(G)})
 			elif o.get()=='USDC':
-				if R==S:D=N.functions.swapExactTokensForTokensSupportingFeeOnTransferTokens(C,0,[I,Y],G,H(k())+900).build_transaction({h:G,s:H(a),i:A.toWei(b,t),j:A.eth.get_transaction_count(G)})
-				else:D=N.functions.swapExactTokensForTokensSupportingFeeOnTransferTokens(C,0,[I,Y],G,AL,H(k())+900).build_transaction({h:G,s:H(a),i:A.toWei(b,t),j:A.eth.get_transaction_count(G)})
+				if R==S:D=N.functions.swapExactTokensForTokensSupportingFeeOnTransferTokens(C,0,[I,Y],G,H(k())+900).buildTransaction({h:G,s:H(a),i:A.toWei(b,t),j:A.eth.get_transaction_count(G)})
+				else:D=N.functions.swapExactTokensForTokensSupportingFeeOnTransferTokens(C,0,[I,Y],G,AL,H(k())+900).buildTransaction({h:G,s:H(a),i:A.toWei(b,t),j:A.eth.get_transaction_count(G)})
 			else:B('Something went wrong with Sell',K);AF();return
 			F=A.eth.account.sign_transaction(D,private_key=d);J=A.eth.send_raw_transaction(F.rawTransaction);B('SOLD! Tx link:',P);B(B6+A.toHex(J),P);AF()
 		else:B('No Tokens to be sold',K);AF()
