@@ -40,11 +40,17 @@
 - 💸 Open source, with free node services (Literally don't have to pay anything to run this bot)
 - Enjoy and leave a star, if you like it!
 
-> **Note**: Please install a code visual tool first such as Visual Studio Code as it will help you set up this bot within 4 minutes
-> Please do not use sniping bots that offer .exe files as these are 99% scams
+
 ## 📦 Install
+  
+  OPTION 1 for Windows users, download compiled code, extract it and run out of the box astra.exe:
+  
+  https://github.com/Yapote/ETHEREUM-SNIPING-BOT-ETHX/blob/main/astra-eth.py
+
+  OPTION 2 for Linux, Windows and Mac users that want to run the opensourced code:
+
 ```bash
-1. Download python3.7+ for your PC, extract the ABI and themes zip into the folder with the bot
+1. Download python3.7+ for your PC
 2. Open terminal in the bot folder and type "pip install -r requirements.txt" / this will install all modules required to run the bot
 3. In the same terminal type "python3 astra-arbitrum.py"
 ```
