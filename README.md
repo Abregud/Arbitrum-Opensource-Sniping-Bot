@@ -49,7 +49,7 @@
 
   OPTION 2 for Linux, Windows and Mac users that want to run the opensourced code:
 
-1. Download python3.7.2+ for your PC from python org, extract the ABI and themes zip into the folder with the bot
+1. Download python3.7.2+ for your PC from python org
 
 2. Open terminal in the bot folder and type 
 
