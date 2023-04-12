@@ -49,11 +49,22 @@
 
   OPTION 2 for Linux, Windows and Mac users that want to run the opensourced code:
 
-```bash
-1. Download python3.7+ for your PC
-2. Open terminal in the bot folder and type "pip3 install -r requirements.txt" / this will install all modules required to run the bot
-3. In the same terminal type "python3 astra-arbitrum.py"
+1. Download python3.7.2+ for your PC from python org, extract the ABI and themes zip into the folder with the bot
+
+2. Open terminal in the bot folder and type 
+
 ```
+pip3 install -r requirements.txt
+```
+ this will install all modules required to run the bot
+ 
+3. In the same terminal type 
+
+```
+python3 astra-arbitrum.py
+```
+The GUI will pop up
+
 ## 💎 Successfull 40,000k snipe the other day :)
 
 ![Code preview](success.png)
