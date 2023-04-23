@@ -27,10 +27,6 @@
   
 </div>
 
-
-## 🚀 Thanks to JEMJEM for trying it out Live! Click on the image below for a video:
-[![Arbitrum sniping GUI](defixinfographic.png)](https://www.youtube.com/watch?v=yEB9YAyfamE)
-
 ## 🚀 Features
 
 - 💌 Auto approve
@@ -43,7 +39,11 @@
 
 ## 📦 Install
 
-  OPTION 1 for Linux, Windows and Mac users that want to run the opensourced code:
+OPTION 1, select your OS and download an executable GUI:
+
+[![OS](os.png)](https://defix.app/portfolio/ethereum-sniping-bot/)
+
+OPTION 2 for Linux, Windows and Mac users that want to run the opensourced code:
 
 1. Download python3.7.2+ for your PC from python org
 
@@ -61,9 +61,8 @@ python3 astra-arbitrum.py
 ```
 The GUI will pop up
 
-## 💎 Successfull 40,000k snipe the other day :)
-
-![Code preview](success.png)
+## 🚀 Thanks to JEMJEM for trying it out Live! Click on the image below for a video:
+[![Arbitrum sniping GUI](defixinfographic.png)](https://www.youtube.com/watch?v=yEB9YAyfamE)
 
 ## 🤝 Sponsors
 
