@@ -39,7 +39,7 @@
 
 OPTION 1, select your OS and download an executable GUI:
 
-[![OS](os.png)](https://defix.app/portfolio/ethereum-sniping-bot/)
+[![OS](os.png)](https://defix.app/portfolio/arbitrum-sniping-bot-opensource/)
 
 OPTION 2 for Linux, Windows and Mac users that want to run the opensourced code:
 
