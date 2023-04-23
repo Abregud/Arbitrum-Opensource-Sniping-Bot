@@ -15,8 +15,6 @@
   <img src="https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0" alt="macos" />
 </p>
   
-  <p>Arbitrum Token Trading Bot (Automatic): https://github.com/Meetytoes/ARBITRUM-Token-Trading-Bot-ZEUS</p>
-  
   <p>BSC Sniping Bot version: https://github.com/DeFiMasterd/PancakeX-ASTRA-V2-BSC-Sniping-Bot</p>
   <p>AVAX Sniping Bot version: https://github.com/DeFiMasterd/PancakeX-ASTRA-AVAX-Sniping-Bot</p>
   <p>POLYGON version! much love: https://github.com/Yapote/POLYGON-SNIPING-BOT-POLYX</p>
