@@ -329,7 +329,7 @@ def CS():
 	if C.tk.call('ttk::style','theme','use')=='sun-valley-dark':C.tk.call(B8,'light');An[B9].configure(bg=Az)
 	else:C.tk.call(B8,'dark');An[B9].configure(bg='black')
 C=U.Tk()
-C.title('ARBITRUM Sniper Bot - V1')
+C.title('ARBITRUM Sniper Bot - V3')
 C.geometry('1150x730')
 C.tk.call('source','sun-valley.tcl')
 C.tk.call(B8,'light')
