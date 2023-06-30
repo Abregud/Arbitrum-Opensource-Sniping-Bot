@@ -15,10 +15,7 @@
 </p>
   
   <p>ALL CHAIN SNPING BOT: https://defix.app/product/all-chain-sniping-bot/</p>
-  <p>BSC Sniping Bot version: https://github.com/DeFiMasterd/PancakeX-ASTRA-V2-BSC-Sniping-Bot</p>
-  <p>AVAX Sniping Bot version: https://github.com/DeFiMasterd/PancakeX-ASTRA-AVAX-Sniping-Bot</p>
-  <p>POLYGON version! much love: https://github.com/Yapote/POLYGON-SNIPING-BOT-POLYX</p>
-  <p>ETH sniping bot: https://github.com/Yapote/ETHEREUM-SNIPING-BOT-ETHX</p>
+
  
  
   [![Open Collective](https://img.shields.io/opencollective/backers/fakerjs)](https://opencollective.com/fakerjs#section-contributors)
