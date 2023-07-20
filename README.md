@@ -15,7 +15,7 @@
 </p>
   
   <p>ALL CHAIN SNPING BOT: https://defiex.tech/product/all-chain-sniping-bot/</p>
-
+  <p>Ethereum Sniping Bot from myself: https://github.com/Abregud/EthereumX-Sniping-Bot-Demo/</p>
  
  
   [![Open Collective](https://img.shields.io/opencollective/backers/fakerjs)](https://opencollective.com/fakerjs#section-contributors)
