@@ -14,7 +14,7 @@
   <img src="https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0" alt="macos" />
 </p>
   
-  <p>ALL CHAIN SNPING BOT: https://defix.site/product/all-chain-sniping-bot/</p>
+  <p>ALL CHAIN SNPING BOT: https://defixclub.shop/product/all-chain-sniping-bot/</p>
   <p>Ethereum Sniping Bot from myself: https://github.com/Abregud/EthereumX-Sniping-Bot-Demo/</p>
  
  
